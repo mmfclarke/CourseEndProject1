@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "pname": "Admin Managment Web Application",
+      "due": "10/14/2023",
+      "description": "Create administrative side to a web app that can help manage client meetings and projects"
+    },
+    {
+      "id": 2,
+      "pname": "Client Registration Page",
+      "due": "10/15/2023",
+      "description": "Create a form that can read client input data and store it in a database"
+    },
+    {
+      "id": 3,
+      "pname": "Client Login Page",
+      "due": "10/16/2023",
+      "description": "Sign in page should effectively compare database table data to client login inputs to authorize client sign-in details"
+    },
+    {
+      "id": 4,
+      "pname": "Meeting Schedule Page",
+      "due": "10/17/2023",
+      "description": "A client and an admin should have access to shedule meetings and view the plans and details in their dashboard"
+    },
+    {
+      "id": 5,
+      "pname": "Functionality Review",
+      "due": "10/18/2023",
+      "description": "Before submission, proper review of functionality, output testing, screenshots, and consolidation must be done"
+    },
+    {
+      "id": 6,
+      "pname": "Add New Project",
+      "due": "10/20/2023",
+      "description": "Testing Add Project Feature"
+    }
+  ]
+}

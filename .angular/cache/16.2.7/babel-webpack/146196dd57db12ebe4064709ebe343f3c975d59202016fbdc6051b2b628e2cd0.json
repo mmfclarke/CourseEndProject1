@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Meetingrequest {}","map":{"version":3,"names":["Meetingrequest"],"sources":["/Users/matthew/Downloads/CourseEndProject1/meeting-manager-app/src/app/classes/meetingrequest.ts"],"sourcesContent":["export class Meetingrequest {\n}\n"],"mappings":"AAAA,OAAM,MAAOA,cAAc"},"metadata":{},"sourceType":"module","externalDependencies":[]}

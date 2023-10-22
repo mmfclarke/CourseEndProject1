@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <!-- Bootstrap Implementation -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+<body>
+    <div *ngIf="displayTag">
+        <div align="center">
+        <h3>Projects</h3>
+        <input type="button" value="Add New Project" (click)="displayForm()">
+        </div><br/><br/>
+
+    <div align="center">
+        <table class="custom">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Due Date</th>
+                <th>Description</th>
+                <th>Delete</th>
+                <th>Update</th>
+            </tr>
+            <tr *ngFor="let project of projects">
+                <td>{{project.id}}</td>
+                <td>{{project.pname}}</td>
+                <td>{{project.due}}</td>
+                <td>{{project.description}}</td>
+                <td><input type="button" value="Delete" (click)="deleteProject(project.id)"/></td>
+                <td><input type="button" value="Update" (click)="updateProject(project)"/></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+    <div *ngIf="formTag" align="center">
+        <br/>
+        <h4 style="color: white;">Add New Project</h4>
+        <form [formGroup]="projRef" (ngSubmit)="newProj()">
+            <label for="pname">Project Name</label><br/>
+            <input type="text" formControlName="pname" required><br/>
+            <label for="due">Due Date</label><br/>
+            <input type="text" formControlName="due" required><br/>
+            <label for="description">Project Description</label><br/>
+            <input type="text" formControlName="description" required><br/>
+            <input class="btn btn-success" type="submit" [value]="buttonVariable"> 
+            <button type="reset" class="btn btn-warning">Clear</button><br/>
+            <button type="button" class="btn btn-danger" (click)="hideForm()">Cancel</button>
+        </form>
+    </div>
+</body>
+</html>

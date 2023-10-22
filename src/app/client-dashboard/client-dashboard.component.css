@@ -1,0 +1,78 @@
+html, body {
+    background-color: rgb(4, 50, 90);
+    height: 101%;
+}
+p {
+    color:white;
+    text-align: center;
+}
+h3 {
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+}
+.column{
+    width: 30%;
+    height: 600px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    background: transparent;
+    color:white;
+    text-align: left;
+    vertical-align: text-top;
+    padding-top: 10px;
+}
+
+li {
+    margin: 20px;
+}
+
+.custom {
+    width: 80%;
+    height:auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    color:white;
+    text-align: left;
+}
+th:first-of-type {
+    text-align: center; 
+    padding-left: 10px; 
+    padding-right: 15px;
+}
+th {
+    text-align: center;
+}
+
+td {
+    width: min-content;
+    text-align: center;
+}
+td:last-of-type {
+    text-align: left; 
+    padding-left: 15px; 
+    padding-right: 15px;
+}
+td, th {
+    border: 1px solid #ccc;
+    border-top-width: 1px;
+    border-top-style: solid; 
+    border-top-color: #ccc;
+}
+
+form {
+    color: white;
+}
+
+label {
+    padding-top: 20px;
+}
+input[type="submit"], button[class="btn btn-outline-danger"] {
+    margin: 20px;
+
+}
+input[id="topic"] {
+    height: 200px;
+}

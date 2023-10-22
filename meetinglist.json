@@ -1,0 +1,60 @@
+{
+  "meetingschedule": [
+    {
+      "id": 1,
+      "name": "Matthew Clarke",
+      "email": "matthew@gmail.com",
+      "participants": "6",
+      "date": "10/14/2023 @ 3:00pm",
+      "topic": "Admin Managment Web Application Project"
+    },
+    {
+      "id": 2,
+      "name": "Miles Chen",
+      "email": "miles@gmail.com",
+      "participants": "2",
+      "date": "10/15/2023 @ 1:00pm",
+      "topic": "Client Registration Project"
+    },
+    {
+      "id": 3,
+      "name": "Andy Yen",
+      "email": "andy@gmail.com",
+      "participants": "10",
+      "date": "10/16/2023 @ 2:00pm",
+      "topic": "Client Login Page Project"
+    },
+    {
+      "id": 4,
+      "name": "Edison Ma",
+      "email": "edison@gmail.com",
+      "participants": "3",
+      "date": "10/17/2023 @ 11:30am",
+      "topic": "Meeting Schedule Project"
+    },
+    {
+      "id": 5,
+      "name": "Arjun Kahlon",
+      "email": "arjun@gmail.com",
+      "participants": "4",
+      "date": "10/18/2023 @ 9:00am",
+      "topic": "Functionality Review"
+    },
+    {
+      "id": 6,
+      "name": "Jake Morisato",
+      "email": "jake@gmail.com",
+      "participants": "2",
+      "date": "10/21/2023 @ 1:00pm",
+      "topic": "Recruitment"
+    },
+    {
+      "id": 7,
+      "name": "Matthew Clarke",
+      "email": "matthew@gmail.com",
+      "participants": "2",
+      "date": "10/10/2023 @ 4:00pm",
+      "topic": "Setting up the meeting manager angular project"
+    }
+  ]
+}

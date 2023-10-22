@@ -1,0 +1,34 @@
+{
+  "alluserinfo": [
+    {
+      "id": 1,
+      "name": "Matthew Clarke",
+      "email": "matthew@gmail.com",
+      "password": "123"
+    },
+    {
+      "name": "Arjun Kahlon",
+      "email": "arjun@gmail.com",
+      "password": "234",
+      "id": 2
+    },
+    {
+      "name": "andyy",
+      "email": "andyyen137@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "Miles",
+      "email": "chenmiles101@gmail.com",
+      "password": "131341243",
+      "id": 4
+    },
+    {
+      "name": "abc",
+      "email": "abc",
+      "password": "abc",
+      "id": 5
+    }
+  ]
+}

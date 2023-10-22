@@ -1,0 +1,48 @@
+div {
+    text-align: center;
+}
+h1 {
+    color: white;
+    padding-top: 15px;
+    text-shadow: 0px 0px 5px;
+    font-weight: bold;
+}
+a[class="nav-link"] {
+    margin-right: 15px;
+    color: black;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30%;
+}
+a[id="navbarDropdown1"] {
+    color: black;
+    font-weight:bold;
+    margin-right: 15px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25%;
+}
+a[id="navbarDropdown2"] {
+    color: black;
+    font-weight:bold;
+    margin-right: 15px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25%;
+}
+html, body {
+    background-color: rgb(4, 50, 90);
+    height: 101%;
+}
+
+div[id="msg"] {
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+}

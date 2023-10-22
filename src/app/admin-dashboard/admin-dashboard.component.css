@@ -1,0 +1,13 @@
+html, body {
+    min-height: 101%;
+    background-color: rgb(4, 50, 90);
+}
+
+div[id="msg"] {
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
